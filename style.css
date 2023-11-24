@@ -398,3 +398,6 @@ footer nav{
 footer p{
     text-align: center;
 }
+.logo, .hamburger-icon{
+    color: darkgray;
+}
