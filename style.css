@@ -9,6 +9,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 html{
+    background-color: rgb(246, 169, 255);
     scroll-behavior: smooth;
 }
 
@@ -29,8 +30,12 @@ nav, .nav-links{
 
 nav{
     justify-content: space-around;
+    background-color: midnightblue;
     align-items: center;
     height: 17vh;
+}
+nav a{
+    color: white;
 }
 
 .nav-links{
@@ -356,6 +361,7 @@ article.icon{
     background: rgb(255,255,255);
     margin: 2rem auto;
     padding: 0.5rem;
+    margin-bottom: auto;
 }
 .contact-info-container{
     display: flex;
@@ -373,12 +379,20 @@ article.icon{
 .email-icon{
     height: 2.5rem;
 }
+.contact-info-container button{
+    height: 20px;
+    width: 50px;
+}
 
 /*FOOTER SECTION*/
 
 footer{
     height: 26vh;
     margin: 0 1rem;
+    margin-bottom: 0;
+}
+footer nav{
+    margin-top: 3rem;
 }
 
 footer p{
