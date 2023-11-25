@@ -16,6 +16,7 @@
     #hamburger-nav{
         display: flex;
     }
+    html
     #experience, .experience-details-container{
         margin-top: 2rem;
     }
@@ -29,8 +30,9 @@
         height: fit-content;
     }
     section{
-        margin: 0 5%;
+        margin:0 15px;
     }
+    
     .section__pic-container{
         width: 275px;
         height: 275px;
